@@ -215,5 +215,43 @@ ________________________________________________________________________
  - Here, the first constructor calls a constructor that has an int, and the second constructor calls the constructor with a string and an int
  - This saves us writing the same thing over and over
 
+## Null references
+- A reference type can be null. e.g. Car thecar = null.
+- This will throw an error so always make sure to check if an object is null (using an if statement) **or use the Elvis Operator which is better**
+
+## The Elvis Operator
+- instead of an if statement to see if the reference is null, use a ?
+- “if null then null, if not then dot”
+
+
+#### An Example:
+        Hounddog hd = GetHoundDog(;
+        if (hd!= null){
+            hd.CreyAllTheTime();
+        })
+    _______________________________________
+    Using the Elvis operator instead:
+    _______________________________________
+    Hounddog hd = GetHoundDog();
+    hd?.CryAllTheTime();
+
+## The coercion operator
+         
+
+## Enum
+- Use the work enum if we only want a certain list of words to be used.
+- e.g. Monday could be written as mon, Mon, monday, Monday so we want to have the correct format.
+
+#### 
+    enum DaysOfWeek {
+        Monday,
+        Tuesday,
+        ....
+    }
+
+    Console.WriteLine ($"Today is {DaysOfWeek.Monday}");
+
+    // We have to use one of the days in the list so the format is correct everytime
+
 
 
