@@ -1,5 +1,5 @@
 Avanade Velocity 2022
-
+https://hackertyper.net/
 
 https://www.techtarget.com/whatis/
 # Cloud Concepts
@@ -191,4 +191,24 @@ https://www.techtarget.com/whatis/
 - Monitor usage to minimise cost
 - Free features do not offer SLAs
 
+____________________________
+________
 
+# AZ 104
+____________________
+
+## Azure Tenant:
+- Made up of a subscription (which is associated with an instance of Azure Active Directory)
+
+
+# Azure Active Directory vs Active Directory
+- Both provide authentication and authorisation for users
+
+## Active Directory
+- Traditionally lives on on-prem computers called Domain Controllers
+- Orgs have multiple DCs so if a user changes a password for exmaple, it updates on all of them
+- Primary unit is the domain (group of related sers, computers and other objects stored in a database)
+
+ ## Azure Active Directory
+ - Lives in Microsoft datacentres (you don't have to purchase or manager them yourself)
+ - Basic building block is a tenance (directory that includes all users and services such as authentication and authorisation)
